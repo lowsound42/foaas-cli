@@ -25,8 +25,10 @@ It ain't rocket science but it's fun and funny.
 
 https://www.foaas.com for a list of what the service supports. I'll add a comprehensive list here eventually but here's a few to get you started:
 
-```foaas-cli what :from``` gives you **What the fuck?! -:from**
+```foaas-cli what :from``` gives you **What the fuck?! -:from** 
+
 ```foaas-cli that :from``` gives you **Fuck that. -:from**
+
 ```foaas-cli maybe :from``` gives you **Maybe. Maybe not. Maybe fuck yourself. -:from**
 
 There are tons more so do check out the website and feel free to experiment.
