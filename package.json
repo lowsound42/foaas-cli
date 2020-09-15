@@ -1,6 +1,6 @@
 {
-  "name": "foaas",
-  "version": "1.0.0",
+  "name": "foaas-cli",
+  "version": "1.1.0",
   "bin": "./server.js",
   "description": "cl tool to access foaas",
   "main": "server.js",
