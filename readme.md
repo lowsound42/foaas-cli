@@ -8,7 +8,6 @@ FOAAS is a beacon of hope in the increasingly sterile big-tech dominated interne
 
 ```
 npm install -g foaas-cli
-
 ```
 
 ## Usage
