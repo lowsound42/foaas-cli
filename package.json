@@ -1,0 +1,13 @@
+{
+  "name": "foaas",
+  "version": "1.0.0",
+  "bin": "./server.js",
+  "description": "cl tool to access foaas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "omario",
+  "license": "ISC",
+  "dependencies": {}
+}
