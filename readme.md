@@ -7,7 +7,7 @@ FOAAS is a beacon of hope in the increasingly sterile big-tech dominated interne
 ## Installation
 
 ```
-npm install -g foass-cli
+npm install -g foaas-cli
 
 ```
 
