@@ -12,9 +12,9 @@ npm install -g foaas-cli
 
 ## Usage
 
-You call the service by using the keywords **foaas-cli** in your terminal and follow that up with the appropriate parameters. 
+You call the service by using the keywords ```foaas-cli``` in your terminal and follow that up with the appropriate parameters. 
 
-For example, the command **foaas-cli me Omar** will return the following response:
+For example, the command ```foaas-cli me Omar``` will return the following response:
 
 ```
 Fuck me.
