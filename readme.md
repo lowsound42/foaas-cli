@@ -1,6 +1,6 @@
 
 # Fuck Off As A Service - Terminal Tool
-FOAAS is a beacon of hope in the increasingly sterile big-tech dominated internet (https://www.foaas.com for the uninitiated). I wanted to build a command line tool for fun and to learn and thought that an API wrapper for FOAAS would be fun to mess around with. So enjoy :)
+FOAAS is a beacon of hope in the increasingly sterile 'Big Tech' dominated internet (https://www.foaas.com for the uninitiated). I wanted to build a command line tool for fun and to learn and thought that an API wrapper for FOAAS would be fun to mess around with. So enjoy :)
 
 
 
