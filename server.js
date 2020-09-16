@@ -61,6 +61,6 @@ https.get(options, res => {
   });
   res.on("end", () => {
     body = JSON.parse(body);
-    console.log('\x1b[32m\x1b[1m%s\x1b[0m', body.message + '\n'  + body.subtitle);
+    console.log(body.message + '\n'  + body.subtitle);
   })
 })
