@@ -2,7 +2,7 @@
 # Fuck Off As A Service - Terminal Tool
 FOAAS is a beacon of hope in the increasingly sterile 'Big Tech' dominated internet (https://www.foaas.com for the uninitiated). I wanted to build a command line tool for fun as well as to learn, and I thought that an API wrapper for FOAAS would be fun to mess around with. So enjoy :)
 
-Credit for FOAAS to Tom Dionysus (https://github.com/tomdionysus/foaas).
+Credit for FOAAS to Tom Cully (https://github.com/tomdionysus/foaas).
 
 ## Installation
 
