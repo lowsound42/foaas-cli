@@ -16,41 +16,23 @@ const checkParams = () => {
 checkParams();
 
 var options;
+var pathToFuck = '/';
 
-if (process.argv[5]){
-  options = {
-    hostname: 'foaas.com',
-    path: `/${[process.argv[2]]}/${process.argv[3]}/${process.argv[4]}/${process.argv[5]}`,
-    headers: {
-      'Accept': 'application/json',
-    },
-  }
-} else if (process.argv[4]){
-   options = {
-    hostname: 'foaas.com',
-    path: `/${[process.argv[2]]}/${process.argv[3]}/${process.argv[4]}`,
-    headers: {
-      'Accept': 'application/json',
-    },
-  }
-} else if (process.argv[3]){
-  options = {
-    hostname: 'foaas.com',
-    path: `/${[process.argv[2]]}/${process.argv[3]}`,
-    headers: {
-      'Accept': 'application/json',
-    },
-  }
-} else {
-  options = {
-    hostname: 'foaas.com',
-    path: `/${process.argv[2]}`,
-    headers: {
-      'Accept': 'application/json',
-    },
-  }
+
+for (let i = 2; i < process.argv.length; i++) 
+{
+  pathToFuck += process.argv[i] + '/';
 }
 
+
+options = 
+{
+  hostname: 'foaas.com',
+  path: pathToFuck,
+  headers: {
+    'Accept': 'application/json',
+  },
+}
 
 
 https.get(options, res => {
