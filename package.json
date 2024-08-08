@@ -1,7 +1,9 @@
 {
   "name": "foaas-cli",
   "version": "2.0.0",
-  "bin": "./server.js",
+  "bin": {
+    "foaas-cli": "server.js"
+  },
   "keywords": [
     "fuck",
     "foaas",
